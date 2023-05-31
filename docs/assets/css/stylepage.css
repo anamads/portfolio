@@ -133,7 +133,7 @@ nav a {
   display: flex;
   justify-content: center;
   height: 31rem;
-  background-image: url('./images/laneige1.png');
+  background-image: url('../laneige1.png');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;

@@ -135,7 +135,7 @@ nav a {
   display: flex;
   justify-content: center;
   height: 35rem;
-  background-image: url('./images/motion_graphics.png');
+  background-image: url('../motion_graphics.png');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;

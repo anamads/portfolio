@@ -135,7 +135,7 @@ nav a {
   display: flex;
   justify-content: center;
   height: 40rem;
-  background-image: url('./images/Bathroom_3d_design_archviz_anastasia_orlova.png');
+  background-image: url('../Bathroom_3d_design_archviz_anastasia_orlova.png');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;

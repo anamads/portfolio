@@ -1,0 +1,437 @@
+/* Universal Styles */
+html, body {
+    margin: 0 auto;
+    }
+
+html {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.main-content {
+  position: relative;
+  top: 4.5; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+
+
+}
+
+button {
+  border-radius: 9px;
+  background-color:#212427;
+  color: white;
+  text-align: center;
+    margin: 20px auto 0;
+    width: 10rem;
+    background-color:#212427;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    padding: 10px;
+    border: none; 
+  transition-property: background-color;
+  transition-duration: 500ms;
+
+}
+
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+
+}
+
+@media only screen and (max-width: 895px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: .5rem 0;
+  
+
+}
+
+header .logo {
+  flex: 1;
+  color:#212427;
+  padding-left: 2.65rem;
+  font-family: Merriweather, Serif;
+  text-decoration:none;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 2.65rem;
+}
+
+nav li {
+  padding-left: 3rem;
+}
+
+nav a {
+  vertical-align: center;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #4a4a4a;
+  text-decoration:none;
+}
+
+
+
+nav li:last-child {
+  
+}
+
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 895px) {
+  nav li:last-child {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+header .logo {
+  font-size: 0.75rem;
+}
+nav a {
+  font-size: 0.75rem;
+}
+
+}
+
+/* Sign Up Section */
+
+#sign-up-section {
+  display: flex;
+  justify-content: center;
+  height: 35rem;
+  background-image: url('./images/motion_graphics.png');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sign-up-cta {
+  position: relative;
+  top: 220px;
+  padding: 0 2.65rem;
+ 
+}
+
+#sign-up-cta .content {
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color:white;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#sign-up-cta h1 {
+  font-size: 3.125rem;
+}
+
+#sign-up-cta h2 {
+  font-size: 2.25rem;
+}
+
+#sign-up-cta span strong {
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 895px) {
+  #sign-up-section {
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+  }
+
+  #sign-up-cta {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+  }
+
+  #sign-up-cta .content {
+    margin-top: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 3.125rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #sign-up-section {
+    height: 20rem;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 2.25rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2rem;
+  }
+}
+
+/*Logos*/
+.supporting {
+  background-color:  hsla(0,0%,82%,30%);;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.supporting .col {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 3.3rem;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-family: Merriweather;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+
+.CTA {
+padding: 0 auto;
+color: white;
+width: 11rem;
+background-color:#212427;
+border: none; 
+transition-property: background-color;
+transition-duration: 500ms;
+text-align: center;
+font-weight: 500;
+font-size: 1rem;
+font-family: Poppins;
+letter-spacing: 1.3px;
+padding: 10px;
+border-radius: 9px;
+}
+
+.CTA:hover {
+  color: #212427;
+  background-color:white;
+  border: 1px solid #212427;
+}
+
+
+
+/* Footer */
+
+footer {
+  background-color: hsla(0,0%,82%,30%);
+  padding: 1.5rem 2rem;
+}
+
+footer .content {
+  color: #212427;
+  opacity: 0.9;
+  display: flex;
+
+  font-size: .75rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .content {
+    font-size: .625rem;
+  }
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  
+.rating {
+    background-color:white;
+    height: 15rem;
+    padding: 5px 1rem 0px;
+    color: #212427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rating h1 {
+    font-size: 2.5rem;
+  }
+  .rating p {
+   font-family: Merriweather;
+   text-align: center;
+   opacity: 80%;
+  }
+
+
+  .box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+  }
+
+ .box video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 4rem;
+ }
+
+
+
+ @media only screen and (max-width: 512px) {
+  
+  .supporting {
+    padding-top: 50px;
+  }
+
+  .rating {
+    height: 25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .box {
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(9, 1fr);
+    
+  }
+   .CTA {
+    width: 70%;
+   }
+
+   .col {
+    padding-bottom: 1rem;
+   }
+   .box video {
+    margin-bottom: 0;
+  }
+   footer .copyright {
+    display: none;
+  
+   }
+
+   footer .content {
+    justify-content: center;
+   }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 701px) {
+  .supporting .col {
+  width: 220px;
+  height: 200px;
+ }
+
+ .container {
+  max-width: 680px;
+ }
+
+ .supporting img {
+  height: 3.1rem;
+}
+.supporting h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 700px) and (min-width: 513px) {
+  .supporting .col {
+    vertical-align: top;
+    padding: 0 8px;
+    width: 135px;
+    height: 160px;
+    
+   }
+   .supporting h2 {
+  
+    font-size: 0.75rem;
+  }
+  
+   .supporting p {
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 0;
+    margin-bottom: 0;
+   }
+   .container {
+    max-width: 90%;
+   }
+
+   .supporting img {
+    height: 2.3rem;
+  }
+  
+  .supporting h2 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+}

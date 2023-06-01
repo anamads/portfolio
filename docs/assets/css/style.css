@@ -295,6 +295,7 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
+    display: none;
   background-color: white;
 }
 

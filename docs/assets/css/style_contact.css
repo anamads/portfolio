@@ -297,12 +297,13 @@ footer .copyright {
 }
 
 
+
 @media only screen and (max-height: 658px) {
   form {
-    
-    padding: 1rem 1.5rem;
+    margin-top: 11rem;
+    padding: .5rem 1.5rem;
     width: 90%;
-    max-height: 460px;
+    max-height: 420px;
  vertical-align: center;
   }
 
@@ -316,19 +317,24 @@ footer .copyright {
     line-height: 1.5;
     
   }
-  footer {
-    height: 10px;
+  form button {
+   
+    margin-bottom: 8px;
+    
   }
-  form input, form textarea {
+ 
+  
 
+  form input, form textarea {
+    font-size: 0.75rem;
     margin: 4px 0;
-    padding: 6px;
+    padding: 5px;
+    padding-left: 15px;
     outline: none;
     background-color:white;
     border-radius: 5px;
   
   }
 }
-
 
 

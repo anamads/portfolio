@@ -276,6 +276,7 @@ header .mobile {
 }
 
 #filters-section .content h3 {
+  font-family: Merriweather;
   font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 300;
@@ -495,7 +496,6 @@ footer .copyright {
   }
 
   #filters-section .content h3 {
-    font-family: Merriweather;
     font-size: 1rem;
     line-height: 1.4;
   }

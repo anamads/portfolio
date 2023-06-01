@@ -357,6 +357,15 @@ footer .copyright {
     column-gap: 10px;
     justify-content: center;
     position: relative;
+    isolation: isolate;
+  }
+  .box::after {
+    content: '';
+    position: absolute;
+    background: white;
+    inset: 0;
+    z-index: 1;
+    opacity: .01;
   }
 
  .box img {

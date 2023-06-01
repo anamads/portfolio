@@ -213,6 +213,9 @@ header .logo {
 nav a {
   font-size: 0.75rem;
 }
+    .container {
+  background-position: 65%;
+}
   form {
     padding: 0.5rem 2rem;
     width: 90%;

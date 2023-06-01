@@ -297,16 +297,38 @@ footer .copyright {
 }
 
 
-  .box {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    row-gap: 5px;
-    column-gap: 10px;
-    justify-content: center;
+@media only screen and (max-height: 658px) {
+  form {
+    
+    padding: 1rem 1.5rem;
+    width: 90%;
+    max-height: 460px;
+ vertical-align: center;
+  }
+
+  form h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  form p {
+    line-height: 1.5;
     
   }
+  footer {
+    height: 10px;
+  }
+  form input, form textarea {
+
+    margin: 4px 0;
+    padding: 6px;
+    outline: none;
+    background-color:white;
+    border-radius: 5px;
+  
+  }
+}
 
 
 

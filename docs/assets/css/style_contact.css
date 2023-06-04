@@ -294,6 +294,9 @@ footer .copyright {
   footer .content {
     font-size: .625rem;
   }
+    footer{
+        display: none;
+    }
 }
 
 

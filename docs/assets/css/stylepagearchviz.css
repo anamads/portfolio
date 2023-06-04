@@ -378,10 +378,12 @@ footer .copyright {
     grid-template-rows: repeat(9, 1fr);
     
   }
-   .CTA {
-    width: 70%;
+    .CTA {
+    width: 100%;
    }
-
+   .container {
+    padding: 0 2.65rem;
+   }
    .col {
     padding-bottom: 1rem;
    }

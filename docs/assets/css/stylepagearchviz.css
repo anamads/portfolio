@@ -381,8 +381,11 @@ footer .copyright {
     .CTA {
     width: 100%;
    }
-   .container {
+     .supporting .container {
     padding: 0 2.65rem;
+   }
+   .rating .container {
+    padding: 0;
    }
    .col {
     padding-bottom: 1rem;

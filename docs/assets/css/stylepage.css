@@ -381,11 +381,6 @@ footer .copyright {
     padding-top: 50px;
   }
 
-  .rating {
-    height: 25rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
   .box {
     grid-template-columns: 1fr ;
     grid-template-rows: repeat(9, 1fr);
@@ -415,9 +410,7 @@ footer .copyright {
   }
 
   .rating {
-    height: 25rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    height: 22rem;
   }
   .box {
     grid-template-columns: 1fr ;

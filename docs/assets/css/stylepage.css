@@ -410,7 +410,9 @@ footer .copyright {
   }
 
   .rating {
-    height: 22rem;
+    height: 24rem;
+       padding-left: 2.65rem;
+    padding-right: 2.65rem;
   }
   .box {
     grid-template-columns: 1fr ;

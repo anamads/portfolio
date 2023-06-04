@@ -386,9 +386,6 @@ footer .copyright {
     grid-template-rows: repeat(9, 1fr);
     
   }
-   .CTA {
-    width: 70%;
-   }
 
    .col {
     padding-bottom: 1rem;
@@ -409,9 +406,10 @@ footer .copyright {
     padding-top: 50px;
   }
 
+
   .rating {
-    height: 24rem;
-       padding-left: 2.65rem;
+    height: 27rem;
+    padding-left: 2.65rem;
     padding-right: 2.65rem;
   }
   .box {
@@ -419,13 +417,18 @@ footer .copyright {
     grid-template-rows: repeat(9, 1fr);
     
   }
-    .CTA {
+
+
+   .CTA {
     width: 100%;
    }
-   .container {
+
+   .supporting .container {
     padding: 0 2.65rem;
    }
- 
+   .rating .container {
+     padding: 0;
+   }
    }
    .col {
     padding-bottom: 1rem;

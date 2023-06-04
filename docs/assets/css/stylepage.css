@@ -270,7 +270,7 @@ nav a {
 .CTA {
   padding: 0 auto;
   color: white;
-  width: 11rem;
+  width: 12rem;
   background-color:#212427;
   border: none; 
   transition-property: background-color;
@@ -280,7 +280,7 @@ nav a {
   font-size: 1rem;
   font-family: Poppins;
   letter-spacing: 1.3px;
-  padding: 10px;
+  padding: 12px;
   border-radius: 9px;
   }
   .CTA:hover {

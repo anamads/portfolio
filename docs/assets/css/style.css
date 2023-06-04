@@ -406,7 +406,6 @@ footer .copyright {
 
   .feature h3 {
     font-size: 1rem;
-    line-height: 1.2;
     padding-bottom: 2.2rem;
   }
 
@@ -474,7 +473,6 @@ footer .copyright {
 
   .feature h3 {
     font-size: 1rem;
-    line-height: 1.2;
     padding-bottom: 3rem;
   }
 
@@ -498,7 +496,7 @@ footer .copyright {
 
   #filters-section .content h3 {
     font-size: 1rem;
-    line-height: 1.4;
+   
   }
 
   #filters-section .images-container {

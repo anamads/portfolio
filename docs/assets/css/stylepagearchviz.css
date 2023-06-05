@@ -373,7 +373,9 @@ footer .copyright {
   .supporting {
     padding-top: 50px;
   }
-
+.supporting .col {
+    margin-bottom: 1rem;
+     }
   .rating {
     height: 23rem;
     padding-left: 2.65rem;

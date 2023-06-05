@@ -408,7 +408,7 @@ footer .copyright {
 
 
   .rating {
-    height: 27rem;
+    height: 23rem;
     padding-left: 2.65rem;
     padding-right: 2.65rem;
   }
@@ -430,6 +430,7 @@ footer .copyright {
     padding: 0;
    }
    .rating h1 {
+    font-size: 2rem;
     margin-top: 0;
    }
    .rating p {

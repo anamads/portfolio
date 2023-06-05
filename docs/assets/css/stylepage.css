@@ -340,6 +340,10 @@ footer .copyright {
     align-items: center;
   }
 
+  .rating img {
+    width: 60px;
+    opacity: 80%;
+  }
   
 .rating .container {
   padding: 2.65rem;
@@ -495,5 +499,10 @@ footer .copyright {
      .supporting p {
       padding: 0;
    }
-
   }
+
+@media only screen and (min-width: 1000px) {
+  .rating img {
+   display: none;
+  }
+}

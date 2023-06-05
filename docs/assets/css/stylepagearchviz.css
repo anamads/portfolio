@@ -235,6 +235,7 @@ nav a {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .supporting img {
@@ -373,9 +374,7 @@ footer .copyright {
   .supporting {
     padding-top: 50px;
   }
-.supporting .col {
-    margin-bottom: 1rem;
-     }
+
   .rating {
     height: 23rem;
     padding-left: 2.65rem;

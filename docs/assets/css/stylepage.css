@@ -141,7 +141,7 @@ nav a {
 
 #sign-up-cta {
   position: relative;
-  top: 12rem;
+  top: 13rem;
   padding: 0 2.65rem;
   
  
@@ -320,7 +320,9 @@ footer .copyright {
     font-size: .625rem;
   }
 }
-
+  #sign-up-section {
+    padding-top: 1.7rem;
+  }
 .container {
     max-width: 1000px;
     margin: 0 auto;

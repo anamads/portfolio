@@ -423,10 +423,10 @@ footer .copyright {
     width: 100%;
    }
 
-   .supporting .container {
+   .container {
     padding: 0 2.65rem;
    }
-    .rating {
+   .rating {
     padding: 0;
    }
    .rating h1 {
@@ -435,7 +435,6 @@ footer .copyright {
    }
    .rating p {
     margin: 0;
-   }
    }
    .col {
     padding-bottom: 1rem;

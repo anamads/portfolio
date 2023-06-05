@@ -421,7 +421,10 @@ footer .copyright {
     grid-template-rows: repeat(9, 1fr);
     
   }
-
+  .container {
+    padding: 0 2.65rem;
+   }
+    
    .CTA {
     width: 100%;
    }

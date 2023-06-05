@@ -484,3 +484,13 @@ footer .copyright {
 }
 
 }
+
+   @media only screen and (max-width: 385px) {
+    .col {
+      max-width: 100%;
+     }
+     .supporting p {
+      padding: 0;
+   }
+
+  }

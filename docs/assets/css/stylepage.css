@@ -399,13 +399,9 @@ footer .copyright {
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 512px) {
   .rating h1 {
+    font-size: 2rem;
     margin-top: 0;
   }
 
@@ -423,9 +419,7 @@ footer .copyright {
     width: 100%;
    }
 
-
    .col {
-    
     padding-bottom: 1rem;
    }
    footer .copyright {

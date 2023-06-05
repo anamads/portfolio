@@ -460,12 +460,14 @@ footer .copyright {
   }
   .feature h2 {
     padding-top: 0;
+    margin-bottom: 0.7rem;
     font-size: 1.65rem;
     line-height: 1.3;
   }
 
   .feature h3 {
     font-size: 1rem;
+    margin: 0;
     padding-bottom: 3rem;
   }
 

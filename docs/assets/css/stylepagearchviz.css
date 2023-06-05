@@ -324,7 +324,10 @@ footer .copyright {
     justify-content: center;
     align-items: center;
   }
-  
+ .rating img {
+    width: 60px;
+    opacity: 80%;
+  }
   .rating h1 {
     font-size: 2.5rem;
   }
@@ -393,6 +396,7 @@ footer .copyright {
     font-size: 2rem;
     margin-top: 0;
    }
+
    .rating p {
     margin: 0;
    }
@@ -469,3 +473,8 @@ footer .copyright {
       padding: 0;
    }
   }
+@media only screen and (min-width: 1000px) {
+  .rating img {
+   display: none;
+  }
+}

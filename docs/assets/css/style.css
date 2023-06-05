@@ -224,6 +224,12 @@ header .mobile {
   padding: 0px 10px;
 }
 
+.feature p {
+  text-align: center;
+  color: #6A1B4D;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .feature h2 {
     padding-bottom: 0;
@@ -454,6 +460,14 @@ footer .copyright {
     padding: 0 2.65rem;
     
   }
+    .feature p {
+    color: #212427;
+    padding: 10px;
+    border: 1px solid #212427;
+    border-radius: 9px;
+    margin: 0 auto 4rem;
+    text-decoration: none;
+  }
 
   .feature .content {
     padding: 0;
@@ -467,8 +481,8 @@ footer .copyright {
 
   .feature h3 {
     font-size: 1rem;
-    margin: 0;
-    padding-bottom: 3rem;
+     margin: 0;
+    padding-bottom: 1.5rem;
   }
 
   #features-section {

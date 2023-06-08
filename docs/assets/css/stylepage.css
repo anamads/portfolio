@@ -284,11 +284,13 @@ nav a {
   letter-spacing: 1.3px;
   padding: 12px;
   border-radius: 9px;
+  cursor: pointer;
   }
   .CTA:hover {
     color: #212427;
     background-color:white;
     border: 1px solid #212427;
+     cursor: pointer;
   }
 
 .supporting a {

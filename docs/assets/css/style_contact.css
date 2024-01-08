@@ -1,6 +1,7 @@
 /* Universal Styles */
 html, body{
     
+  max-width: 1920px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

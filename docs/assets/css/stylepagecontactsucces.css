@@ -5,6 +5,7 @@ html, body {
     box-sizing: border-box;
     font-family: "Poppins";
     font-size: 16px;
+  max-width: 1920px;
     }
 
 

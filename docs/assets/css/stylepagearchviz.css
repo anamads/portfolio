@@ -1,6 +1,7 @@
 /* Universal Styles */
 html, body {
-    margin: 0 auto;
+   margin: 0 auto;
+  max-width: 1920px;
     }
 
 html {

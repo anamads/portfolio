@@ -74,7 +74,9 @@ header .logo {
   font-family: Merriweather, Serif;
   text-decoration:none;
 }
-
+.logotype {
+  width: 130px;
+}
 header nav ul {
   display: flex;
   list-style-type: none;

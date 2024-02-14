@@ -106,6 +106,11 @@ header .mobile {
 }
 
 
+header .logo {
+  flex: 1;
+  color: #212427;
+  text-decoration: none;
+}
 
 /* Sign Up Section */
 

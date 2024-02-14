@@ -67,15 +67,11 @@ header .content {
   padding: .5rem 0;
 }
 
-header .logo {
-  flex: 1;
-  color:#212427;
-  padding-left: 2.65rem;
-  font-family: Merriweather, Serif;
-  text-decoration:none;
-}
+
 .logotype {
   width: 130px;
+  flex: 1;
+  padding-left: 2.65rem;
 }
 header nav ul {
   display: flex;

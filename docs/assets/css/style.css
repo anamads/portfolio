@@ -24,7 +24,7 @@ a {
 
 .button {
   border-radius: 9px;
-  background-color:#6A1B4D;
+  background-color:#D81B60;
   color: white;
   transition-property: background-color;
   transition-duration: 500ms;
@@ -182,7 +182,7 @@ header .logo {
   }
    
     #sign-up-cta .threed {
-    color: #6A1B4D; 
+    color: #D81B60; 
   }
   
   

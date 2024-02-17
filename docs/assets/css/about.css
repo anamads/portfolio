@@ -46,8 +46,6 @@ button {
 }
 
 
-/* Header */
-
 header {
   position: fixed;
   z-index: 1;
@@ -61,25 +59,23 @@ header {
 }
 
 header .content {
+position: relative;
+  margin: 0 9%;
   display: flex;
   align-items: center;
   padding: .5rem 0;
-  
-
 }
 
-header .logo {
+
+.logotype {
+  width: 130px;
   flex: 1;
-  color:#212427;
-  padding-left: 2.65rem;
-  font-family: Merriweather, Serif;
-  text-decoration:none;
+ 
 }
-
 header nav ul {
   display: flex;
   list-style-type: none;
-  padding-right: 2.65rem;
+  padding: 0;
 }
 
 nav li {
@@ -94,31 +90,24 @@ nav a {
   text-decoration:none;
 }
 
+
+
+nav li:last-child {
+  
+}
+
+
+
 header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 895px) {
-  nav li:last-child {
-    display: block;
-  }
 
-}
-
-
-
-@media only screen and (max-width: 480px) {
 header .logo {
-  font-size: 0.75rem;
+  flex: 1;
+  color: #212427;
+  text-decoration: none;
 }
-nav a {
-  font-size: 0.75rem;
-}
-
-
-}
-
-
 /*Logos*/
 .supporting {
   background-color:  white;

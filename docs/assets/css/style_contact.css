@@ -98,23 +98,23 @@ header {
 }
 
 header .content {
+position: relative;
+  margin: 0 9%;
   display: flex;
   align-items: center;
-  padding: 0.4rem;
+  padding: .5rem 0;
 }
 
-header .logo {
+
+.logotype {
+  width: 130px;
   flex: 1;
-  color:#212427;
-  padding-left: 2.65rem;
-  font-family: Merriweather, Serif;
-  text-decoration:none;
+ 
 }
-
 header nav ul {
   display: flex;
   list-style-type: none;
-  padding-right: 2.65rem;
+  padding: 0;
 }
 
 nav li {
@@ -122,31 +122,30 @@ nav li {
 }
 
 nav a {
-  vertical-align: bottom;
-  line-height: 1.6;
+  vertical-align: center;
+  line-height: 1.5;
   font-size: 1rem;
   color: #4a4a4a;
   text-decoration:none;
 }
 
-nav .button {
-    padding: .1875rem .5rem;
-    background-color: #9dc20b;
-    line-height: 1.6;
-    color: white;
-}
+
 
 nav li:last-child {
   
 }
 
-header .icon {
-  width: 1rem;
-  padding-left: .75rem;
-}
+
 
 header .mobile {
   display: none;
+}
+
+
+header .logo {
+  flex: 1;
+  color: #212427;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 895px) {

@@ -391,13 +391,6 @@ div.image {
     display:  none;
   }
 
-  }
-
-mark.purple {
-    font-weight: bold;
-    background: none;
-}
-
 /*About size*/
 aboutbox {
     padding-top: 5rem;
@@ -448,6 +441,13 @@ aboutbox {
   .aboutbox .button {
     margin-top: 1rem;
   }
+
+  }
+
+mark.purple {
+    font-weight: bold;
+    background: none;
+}
 
 @media only screen and (max-width: 1024px) {
   grid-template-columns: 75% 25%;

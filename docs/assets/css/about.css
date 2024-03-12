@@ -392,7 +392,7 @@ div.image {
   }
 
 /*About size*/
-aboutbox {
+.aboutbox {
     padding-top: 5rem;
     width: 80%;
     grid-template-columns: 1fr;

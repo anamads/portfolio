@@ -303,6 +303,8 @@ div.image {
 }
 
 .toolkit {
+    margin-left: 9%;
+    margin-right: 9%;
   text-align: center;
   background-color: #e5e8eb;
   /*background-color: #212121;*/

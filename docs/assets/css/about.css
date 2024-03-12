@@ -398,15 +398,14 @@ div.image {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  .aboutme {
-    padding-right: 0;
-  }
+
   #jsbut {
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 200px;
   }
   .toolgrid {
+      margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding-bottom: 2rem;

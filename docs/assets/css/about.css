@@ -397,7 +397,56 @@ mark.purple {
     background: none;
 }
 
+/*About size*/
+aboutbox {
+    padding-top: 5rem;
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .aboutme {
+    padding-right: 0;
+  }
+  #jsbut {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 200px;
+  }
+  .toolgrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 2rem;
+  }
+  .toolgrid p {
+    margin: 0.5rem auto 0;
+  }
+  .tool {
+    height: auto;
+  }
 
+  .toolgrid img {
+    height: 35%;
+    width: auto;
+  }
+  .followicons {
+    padding: 0 5%;
+    column-gap: 0.2rem;
+  }
+  .triple {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+ 
+  
+  .certificates {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2.5rem;
+    place-items: center;
+  }
+  .aboutbox .button {
+    margin-top: 1rem;
+  }
 
 @media only screen and (max-width: 1024px) {
   grid-template-columns: 75% 25%;

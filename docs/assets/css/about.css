@@ -276,6 +276,7 @@ div.image {
 
 .certificates {
   display: grid;
+    margin: 0 9%;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 30px;
   padding-bottom: 3rem;

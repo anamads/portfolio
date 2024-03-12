@@ -276,7 +276,7 @@ div.image {
 
 .certificates {
   display: grid;
-    margin: 0 9%;
+    margin: 0 9% 2rem;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 30px;
   padding-bottom: 3rem;
@@ -306,6 +306,7 @@ div.image {
 .toolkit {
     margin-left: 9%;
     margin-right: 9%;
+    margin-top: 2rem;
   text-align: center;
   background-color: hsla(0, 0%, 82%, 30%);
   /*background-color: #212121;*/

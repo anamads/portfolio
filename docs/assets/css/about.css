@@ -256,6 +256,74 @@ div.image {
     font-weight: 550;
     font-family: Merriweather;
 }
+.bigbox {
+  width: 100%;
+  background-color: hsla(0, 0%, 82%, 30%);
+  padding-bottom: 2rem;
+}
+
+.aboutbox {
+  margin: 0 auto 3rem;
+  padding-top: 10rem;
+  display: grid;
+  width: 80%;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1;
+  row-gap: 3rem;
+  column-gap: 5px;
+  justify-content: center;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+  padding-bottom: 3rem;
+}
+.certificates img {
+  justify-content: center;
+  max-width: 70%;
+}
+
+#cert {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2.5rem 0 2rem;
+}
+
+div.image {
+  margin-bottom: 0;
+}
+
+.aboutbox img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.toolkit {
+  text-align: center;
+  background-color: #e5e8eb;
+  /*background-color: #212121;*/
+  border-radius: 20px;
+}
+
+.toolgrid {
+  text-align: center;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+}
+.toolgrid img {
+  height: 30%;
+  width: auto;
+}
+
+.tool {
+  height: 200px;
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 821px) {
   .aboutme h2 {
